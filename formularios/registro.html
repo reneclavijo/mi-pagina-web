@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Cont&aacute;ctame</h1>
+        <p>Ingresa aqu&iacute; tus datos para que me ponga
+            en contacto contigo
+        </p>
+        <hr>
+        <br>
+        <form>
+            <label for="campo-nombre"> Ingresa tu nombre: </label>
+            <input type="text" id="campo-nombre">
+            <br><br>
+
+            <label for="campo-apellido"> Ingresa tu apellido </label>
+            <input type="text" id="campo-apellido">
+            <br><br>
+
+            <label for="campo-secreto"> Ingresa tu comida favorita. Shhhhh</label>
+            <input type="password" id="campo-secreto">
+            <br><br>
+
+            <label for="campo-telefono"> Ingresa tu n&uacute;mero de tel&eacute;fono </label>
+            <input type="number" id="campo-telefono">
+            <br><br>
+
+            <label for="campo-color-favorito"> Selecciona tu color favorito </label>
+            <input type="color" id="campo-color-favorito">
+            <br><br>
+
+            <label for="campo-foto"> Selecciona una foto </label>
+            <input type="file" id="campo-foto">
+            <br><br>
+
+            <label for="campo-clima"> Tu clima favorito </label>
+            <select id="campo-clima">
+                <option value="frio"> Frio </option>
+                <option value="caliente"> Caliente </option>
+                <option value="templado"> Templado </option>
+            </select>
+            <br><br>
+            
+            <!-- Los checkboxs se utilizan para selecciones múltiples -->
+            <h3>¿Qu&eacute; redes sociales tienes?</h3>
+            <input type="checkbox" id="campo-checkbox-facebook">
+            <label for="campo-checkbox-facebook"> Facebook </label>
+
+            <input type="checkbox" id="campo-checkbox-instagram">
+            <label for="campo-checkbox-instagram"> Instagram </label>
+
+            <input type="checkbox" id="campo-checkbox-twitter">
+            <label for="campo-checkbox-twitter"> Twitter </label>
+            
+            <input type="checkbox" id="campo-checkbox-pinterest">
+            <label for="campo-checkbox-pinterest"> Pinterest </label>
+
+            <input type="checkbox" id="campo-checkbox-linkedin">
+            <label for="campo-checkbox-linkedin"> LinkedIn </label>
+
+            <!-- FIN checkboxs Redes sociales -->
+            <br><br>
+            <h3>Selecciona 1 idioma para que hablemos</h3>
+            <input type="radio" id="campo-radio-esp" name="campo_radio_idioma">
+            <label for="campo-radio-esp"> Espa&ntilde;ol </label>
+            <br><br>
+            <input type="radio" id="campo-radio-ingles" name="campo_radio_idioma">
+            <label for="campo-radio-ingles"> Ingl&eacute;s </label>
+            <br><br>
+            <input type="radio" id="campo-radio-chino" name="campo_radio_idioma">
+            <label for="campo-radio-chino"> Chino </label>
+            <!-- FIN radio Idioma -->
+
+            <br><br>
+            <h3>Selecciona por d&oacute;nde vamos a hablar</h3>
+            <input type="radio" id="campo-radio-teams" name="campo_radio_reunion">
+            <label for="campo-radio-teams"> Teams </label>
+            <br><br>
+            <input type="radio" id="campo-radio-skype" name="campo_radio_reunion">
+            <label for="campo-radio-skype"> Skype </label>
+            <br><br>
+            <input type="radio" id="campo-radio-meet" name="campo_radio_reunion">
+            <label for="campo-radio-meet"> Google meet </label>
+            
+            <!-- FIN radio Herramientas de Reunión -->
+
+            <br><br>
+            <input type="button" id="campo-borrar" value="Saludar" onclick="alert('hola mundo')">
+            <br><br>
+            <input type="submit" id="campo-submit" value="Enviar">
+
+            
+        </form>
+        <hr>
+
+        <a href="../index.html"> ver index </a>
+        <br>
+        <a href="../tablas/notas.html"> ver notas </a>
+
+    </body>
+</html>

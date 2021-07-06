@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+#contenido {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.perfil{
+     /* Esta posición se calcula en la pantalla */
+     /* top | right | bottom | left */
+    /* position: fixed; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.principal{
+    position: absolute;
+    left: 20%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* Posición static => por defecto */
+
+/* Posición relative para que no esté fijo */
+
+/* Absolute => Depende de uno que NO sea static */

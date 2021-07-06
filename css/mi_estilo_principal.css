@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+/**/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #264653;
+}
+
+body{
+    background-color: rgb(206, 206, 206);
+}
+
+#contenido {
+    width: 1000px;
+    height: 900px;
+    /* background-color: gray; */
+    margin: 20px auto;
+}
+
+.perfil {
+    width: 200px;
+    height: 900px;
+    /* background-color: cadetblue; */
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.perfil-datos{
+    width: auto;
+    height: 350px;
+    background-color: white;
+    color: #2a9d8f;
+    text-align: center;
+}
+
+.perfil-datos h3{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.perfil-datos p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.perfil-redes-sociales{
+    box-sizing: border-box;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+}
+
+.perfil-redes-sociales ul{
+    list-style-type: none;
+    text-align: center;
+}
+.perfil-redes-sociales li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+.principal {
+    width: 700px;
+    height: 600px;
+    /* background-color: coral; */
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 30px;
+}
+
+.navegacion {
+    margin: 0 auto;
+    text-align: right;
+}
+
+.navegacion-barra{
+    list-style-type: none;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.navegacion-barra li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.navegacion-barra a {
+    text-decoration: none;
+    color: #e9c45a;
+}
+
+.activo{
+    background-color: #e9c46a;
+}
+.activo a{
+    color: white;
+    font-weight: bold;
+}
+
+.navegacion-barra li:hover{
+    background-color: #e9c46a;
+}
+.navegacion-barra li a:hover{
+    color: white;
+}
+
+.articulo {
+    margin-top: 30px;
+    height: 250px;
+    /* background-color: blueviolet; */
+    background-color: white;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.articulo-texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.articulo-texto h3 {
+    font-weight: normal;
+}
+
+.articulo-fin-texto{
+    margin-bottom: 50px;
+}
+
+.articulo-texto a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #e9c46a;
+    color: white;
+}
+
+.articulo-imagen{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 40px;
+}
+.articulo-imagen img{
+    border-radius: 40%;
+}
+
+
