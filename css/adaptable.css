@@ -4,6 +4,10 @@
         height: 200px;
         margin: 10px;
     }
+
+    .ocultar-cel {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -23,6 +27,12 @@
         display: inline-block;
         vertical-align: top;
         margin: 10px;
+    }
+
+    .contenedor{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 } 
 
